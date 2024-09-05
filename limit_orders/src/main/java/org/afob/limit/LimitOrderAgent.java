@@ -65,3 +65,6 @@ public class LimitOrderAgent implements PriceListener {
     }
 
 }
+
+// Also, regarding enhancements of trading-framework we need to enhance the buy and sell  methods to implement retry mechanisms and to mitigate external failures so that it doesn't throw any exception.
+//book management, order prioritization and error recovery should also be added to be production ready
