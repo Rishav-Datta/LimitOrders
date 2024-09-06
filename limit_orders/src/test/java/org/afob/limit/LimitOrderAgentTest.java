@@ -9,8 +9,6 @@ import org.mockito.Mockito;
 
 import java.math.BigDecimal;
 
-import org.junit.Assert;
-import org.junit.Test;
 
 import static org.mockito.Mockito.*;
 
@@ -84,8 +82,4 @@ public class LimitOrderAgentTest {
         verify(mockExecutionClient, times(1)).buy("IBM", 1000);
     }
     
-    @Test
-    public void addTestsHere() {
-        Assert.fail("not implemented");
-    }
 }
